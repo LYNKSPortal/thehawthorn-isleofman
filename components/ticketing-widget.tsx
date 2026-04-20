@@ -21,10 +21,17 @@ export function TicketingWidget() {
       // Clear any existing content
       container.innerHTML = ''
 
+      // Create the embed widget div
+      const embedDiv = document.createElement('div')
+      embedDiv.id = 'embed_widget'
+      embedDiv.setAttribute('data-th-embed', '')
+      embedDiv.setAttribute('data-th-config', '{ "widgetId": "2ae095a8-b961-4f7e-beff-db7df40c4a19" }')
+      
+      container.appendChild(embedDiv)
+
+      // Load the script
       const script = document.createElement('script')
       script.src = 'https://assets.ticketinghub.com/checkout.js'
-      script.setAttribute('data-widget', '599a1a03-79db-4871-8606-16a2eaf31e24')
-      script.setAttribute('data-no-minify', '1')
       script.async = true
       
       container.appendChild(script)
