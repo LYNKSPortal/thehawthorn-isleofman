@@ -18,12 +18,55 @@ export default function ReservationsPage() {
     specialRequests: "",
   })
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitMessage, setSubmitMessage] = useState<{ type: 'success' | 'error', text: string } | null>(null)
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    const mailtoLink = `mailto:info@thehawthorn.im?subject=Reservation Request - ${formData.name}&body=${encodeURIComponent(
-      `Reservation Request\n\nName: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nDate: ${formData.date}\nTime: ${formData.time}\nNumber of Guests: ${formData.guests}\n\nSpecial Requests:\n${formData.specialRequests}`
-    )}`
-    window.location.href = mailtoLink
+    setIsSubmitting(true)
+    setSubmitMessage(null)
+
+    try {
+      const response = await fetch('/api/send-reservation', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          guests: formData.guests,
+          date: formData.date,
+          time: formData.time,
+          flexibleBooking: formData.flexible,
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          details: formData.specialRequests,
+        }),
+      })
+
+      const data = await response.json()
+
+      if (data.success) {
+        setSubmitMessage({ type: 'success', text: 'Your reservation request has been sent! We will contact you with confirmation.' })
+        // Reset form
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          date: "",
+          time: "",
+          guests: "1",
+          flexible: "Earlier",
+          specialRequests: "",
+        })
+      } else {
+        setSubmitMessage({ type: 'error', text: 'Failed to send reservation. Please call us at 801268.' })
+      }
+    } catch (error) {
+      setSubmitMessage({ type: 'error', text: 'An error occurred. Please call us at 801268.' })
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -205,8 +248,21 @@ export default function ReservationsPage() {
                       </p>
                     </div>
 
-                    <Button type="submit" size="lg" className="w-full">
-                      Send
+                    {submitMessage && (
+                      <div className={`rounded-lg p-4 ${submitMessage.type === 'success' ? 'bg-green-50 border border-green-200' : 'bg-red-50 border border-red-200'}`}>
+                        <p className={`text-sm ${submitMessage.type === 'success' ? 'text-green-800' : 'text-red-800'}`}>
+                          {submitMessage.text}
+                        </p>
+                      </div>
+                    )}
+
+                    <Button 
+                      type="submit" 
+                      size="lg" 
+                      className="w-full"
+                      disabled={isSubmitting}
+                    >
+                      {isSubmitting ? 'Sending...' : 'Send'}
                     </Button>
                   </form>
                 </CardContent>
