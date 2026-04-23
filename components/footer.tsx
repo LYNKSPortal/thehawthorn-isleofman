@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Phone, Mail, MapPin, Clock } from "lucide-react"
 
 export function Footer() {
@@ -75,8 +76,17 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300 px-4 sm:px-6 lg:px-8">
-          <p>&copy; {new Date().getFullYear()} The Hawthorn. All rights reserved.</p>
+        <div className="border-t border-gray-700 mt-8 pt-8 px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            <p className="text-gray-300">&copy; 2026 The Hawthorn. All rights reserved.</p>
+            <Image 
+              src="/powered-by-lynks.png" 
+              alt="Powered by LYNKS" 
+              width={150} 
+              height={50}
+              style={{ width: '150px', height: 'auto' }}
+            />
+          </div>
         </div>
       </div>
     </footer>
