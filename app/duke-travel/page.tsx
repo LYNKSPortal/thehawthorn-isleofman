@@ -4,10 +4,17 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Check, MapPin, Car, Bus, Bike, AlertCircle, Clock, Users } from "lucide-react"
 import { TicketingWidget } from "@/components/ticketing-widget"
+import type { Metadata } from "next"
 
-export const metadata = {
-  title: "TT 2026 Hospitality | The Hawthorn",
-  description: "Premium TT Viewing at The Hawthorn - one of the most iconic sections of the Isle of Man TT course. Exclusive hospitality with trackside viewing.",
+export const metadata: Metadata = {
+  title: "TT 2026 Hospitality",
+  description: "Premium TT Viewing at The Hawthorn - one of the most iconic sections of the Isle of Man TT course. Exclusive hospitality with trackside viewing, food, drinks, and unbeatable atmosphere. Book your TT 2026 experience now!",
+  keywords: ["TT 2026", "Isle of Man TT", "TT hospitality", "TT viewing", "Greeba Bridge", "TT tickets", "motorcycle racing", "TT experience", "trackside viewing"],
+  openGraph: {
+    title: "TT 2026 Hospitality | The Hawthorn Bar & Bistro",
+    description: "Premium TT Viewing at The Hawthorn - one of the most iconic sections of the Isle of Man TT course. Exclusive hospitality with trackside viewing.",
+    url: "https://thehawthorn.im/duke-travel",
+  },
 }
 
 export default function DukeTravelPage() {

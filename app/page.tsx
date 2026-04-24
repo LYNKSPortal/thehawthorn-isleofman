@@ -2,6 +2,18 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Clock, MapPin, Phone, Utensils, Calendar, Wine, ShoppingBag, PartyPopper, Quote, Gift } from "lucide-react"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Home",
+  description: "Welcome to The Hawthorn Bar & Bistro in Greeba, Isle of Man. Family-run restaurant serving homemade traditional and international dishes since May 2000. Book your table today!",
+  keywords: ["restaurant Isle of Man", "Greeba restaurant", "family dining", "Sunday roast", "local food", "bistro Isle of Man", "book table"],
+  openGraph: {
+    title: "The Hawthorn - Family-Run Bar & Bistro in Greeba, Isle of Man",
+    description: "Welcome to The Hawthorn Bar & Bistro in Greeba, Isle of Man. Family-run restaurant serving homemade traditional and international dishes since May 2000.",
+    url: "https://thehawthorn.im",
+  },
+}
 
 export default function Home() {
   return (

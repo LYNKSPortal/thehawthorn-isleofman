@@ -4,9 +4,17 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { MapPin, Star, Heart, Calendar, Users, Award } from "lucide-react"
 
-export const metadata = {
-  title: "About Us - The Hawthorn",
-  description: "Learn about The Hawthorn, a family-run bar & bistro in Greeba, Isle of Man, owned by John Howard since May 2000.",
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "About Us",
+  description: "Learn about The Hawthorn, a family-run bar & bistro in Greeba, Isle of Man, owned by John Howard since May 2000. Discover our story, values, and commitment to quality local food.",
+  keywords: ["about The Hawthorn", "John Howard", "family restaurant Isle of Man", "Greeba bistro", "local food", "Isle of Man dining history"],
+  openGraph: {
+    title: "About Us | The Hawthorn Bar & Bistro",
+    description: "Learn about The Hawthorn, a family-run bar & bistro in Greeba, Isle of Man, owned by John Howard since May 2000.",
+    url: "https://thehawthorn.im/about",
+  },
 }
 
 export default function AboutPage() {

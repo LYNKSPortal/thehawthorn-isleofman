@@ -2,10 +2,17 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Utensils, Sun, ArrowRight, Phone, Baby, Calendar, IceCream } from "lucide-react"
+import type { Metadata } from "next"
 
-export const metadata = {
-  title: "Our Menus - The Hawthorn",
-  description: "Explore our delicious menu offerings at The Hawthorn bar & bistro in Greeba, Isle of Man.",
+export const metadata: Metadata = {
+  title: "Our Menus",
+  description: "Explore our delicious menu offerings at The Hawthorn in Greeba, Isle of Man. Main menu, Sunday roasts, children's menu, desserts, and more. Fresh, locally-sourced ingredients.",
+  keywords: ["menu Isle of Man", "Sunday roast", "children's menu", "desserts", "restaurant menu Greeba", "food menu", "dining options", "local ingredients"],
+  openGraph: {
+    title: "Our Menus | The Hawthorn Bar & Bistro",
+    description: "Explore our delicious menu offerings including Sunday roasts, children's menu, and homemade desserts at The Hawthorn in Greeba, Isle of Man.",
+    url: "https://thehawthorn.im/menus",
+  },
 }
 
 export default function MenusPage() {
