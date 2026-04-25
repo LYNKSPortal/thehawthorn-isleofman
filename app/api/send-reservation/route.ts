@@ -90,6 +90,7 @@ export async function POST(request: NextRequest) {
     const restaurantMailOptions = {
       from: process.env.SMTP_FROM,
       to: 'info@thehawthorn.im',
+      replyTo: sanitizedEmail, // When you hit reply, it will reply to the customer
       subject: `New Reservation Request - ${sanitizedName}`,
       html: `
         <h2>New Reservation Request</h2>
