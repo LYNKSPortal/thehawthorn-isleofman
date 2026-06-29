@@ -52,8 +52,16 @@ export default function MainMenuPage() {
 
             <div className="flex justify-between items-start border-b border-gray-200 pb-4">
               <div className="flex-1">
-                <h3 className="font-semibold text-gray-900">Garlic Bread or Onion Rings</h3>
-                <p className="text-sm text-gray-600">With dips</p>
+                <h3 className="font-semibold text-gray-900">Garlic Bread</h3>
+                <p className="text-sm text-gray-600">(ideal for 2 to share)</p>
+              </div>
+              <span className="font-bold text-amber-900 ml-4">£6.50</span>
+            </div>
+
+            <div className="flex justify-between items-start border-b border-gray-200 pb-4">
+              <div className="flex-1">
+                <h3 className="font-semibold text-gray-900">Onion Rings</h3>
+                <p className="text-sm text-gray-600">With BBQ sauce and sweet chilli dips (ideal for 2 to share)</p>
               </div>
               <span className="font-bold text-amber-900 ml-4">£6.50</span>
             </div>
@@ -77,33 +85,17 @@ export default function MainMenuPage() {
             <div className="flex justify-between items-start border-b border-gray-200 pb-4">
               <div className="flex-1">
                 <h3 className="font-semibold text-gray-900">Smoked Mackerel Pate</h3>
-                <p className="text-sm text-gray-600">Beetroot & apple relish, toasted sliced baguette</p>
+                <p className="text-sm text-gray-600">Toasted baguette</p>
               </div>
               <span className="font-bold text-amber-900 ml-4">£8.75</span>
             </div>
 
             <div className="flex justify-between items-start border-b border-gray-200 pb-4">
               <div className="flex-1">
-                <h3 className="font-semibold text-gray-900">Twice Baked Cheddar Cheese Soufflé</h3>
-                <p className="text-sm text-gray-600">Onion cheese sauce, marinara sauce</p>
-              </div>
-              <span className="font-bold text-amber-900 ml-4">£10.25</span>
-            </div>
-
-            <div className="flex justify-between items-start border-b border-gray-200 pb-4">
-              <div className="flex-1">
                 <h3 className="font-semibold text-gray-900">Mushrooms</h3>
-                <p className="text-sm text-gray-600">Butter, garlic, shallots, cream, garlic bread</p>
+                <p className="text-sm text-gray-600">Butter, garlic, shallots</p>
               </div>
               <span className="font-bold text-amber-900 ml-4">£9.00</span>
-            </div>
-
-            <div className="flex justify-between items-start border-b border-gray-200 pb-4">
-              <div className="flex-1">
-                <h3 className="font-semibold text-gray-900">Aromatic Duck & Vegetable Spring Rolls</h3>
-                <p className="text-sm text-gray-600">Hoisin sauce dip</p>
-              </div>
-              <span className="font-bold text-amber-900 ml-4">£9.95</span>
             </div>
 
             <div className="flex justify-between items-start border-b border-gray-200 pb-4">
@@ -116,8 +108,8 @@ export default function MainMenuPage() {
 
             <div className="flex justify-between items-start border-b border-gray-200 pb-4">
               <div className="flex-1">
-                <h3 className="font-semibold text-gray-900">Breaded Brie</h3>
-                <p className="text-sm text-gray-600">Deep fried, balsamic reduction, cranberry sauce, salad garnish</p>
+                <h3 className="font-semibold text-gray-900">Brie</h3>
+                <p className="text-sm text-gray-600">Breaded, deep fried, balsamic cream, garlic bread reduction, cranberry sauce, salad</p>
               </div>
               <span className="font-bold text-amber-900 ml-4">£9.95</span>
             </div>
@@ -133,7 +125,7 @@ export default function MainMenuPage() {
             <div className="flex justify-between items-start border-b border-gray-200 pb-4">
               <div className="flex-1">
                 <h3 className="font-semibold text-gray-900">Jumbo Chilli & Garlic Prawns</h3>
-                <p className="text-sm text-gray-600">White wine butter, chilli flake, garlic bread</p>
+                <p className="text-sm text-gray-600">White wine, butter, chilli flake, garlic bread OR Cheddar mornay style</p>
               </div>
               <span className="font-bold text-amber-900 ml-4">£11.95</span>
             </div>
@@ -195,7 +187,7 @@ export default function MainMenuPage() {
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
                     <h3 className="font-bold text-lg text-gray-900 mb-2">Pork Belly</h3>
-                    <p className="text-sm text-gray-600">Slow roasted, crispy crackling, creamed spinach & mushroom, blue cheese cream sauce, Bury black pudding mashed potato (plain available)</p>
+                    <p className="text-sm text-gray-600">Slow roasted, crispy crackling, broccoli, red wine jus, dauphinoise potato</p>
                   </div>
                   <span className="font-bold text-amber-900 ml-4">£18.90</span>
                 </div>
@@ -207,7 +199,7 @@ export default function MainMenuPage() {
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
                     <h3 className="font-bold text-lg text-gray-900 mb-2">Chinese Style Crispy Shredded Pork</h3>
-                    <p className="text-sm text-gray-600">Slowly roasted shoulder coated in a sweet & spicy BBQ sauce with onions & bell peppers, egg fried rice, prawn crackers</p>
+                    <p className="text-sm text-gray-600">Slowly roasted shoulder coated in a sweet & spicy BBQ sauce with stir fried vegetables, egg fried rice, prawn crackers</p>
                   </div>
                   <div className="ml-4 text-right">
                     <span className="font-bold text-amber-900 block">£17.00</span>
@@ -221,35 +213,8 @@ export default function MainMenuPage() {
               <CardContent className="pt-6">
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
-                    <h3 className="font-bold text-lg text-gray-900 mb-2">Pork Escalope</h3>
-                    <p className="text-sm text-gray-600">Breaded tenderised loin, white wine & onion cream sauce, broccoli, creamed potatoes</p>
-                  </div>
-                  <div className="ml-4 text-right">
-                    <span className="font-bold text-amber-900 block">£18.25</span>
-                    <span className="text-sm text-gray-600">£15.25 sp</span>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardContent className="pt-6">
-                <div className="flex justify-between items-start">
-                  <div className="flex-1">
-                    <h3 className="font-bold text-lg text-gray-900 mb-2">Lamb Shank</h3>
-                    <p className="text-sm text-gray-600">Slowly braised until falling off the bone, broccoli, dauphinoise potatoes, gravy</p>
-                  </div>
-                  <span className="font-bold text-amber-900 ml-4">£22.95</span>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardContent className="pt-6">
-                <div className="flex justify-between items-start">
-                  <div className="flex-1">
                     <h3 className="font-bold text-lg text-gray-900 mb-2">Beef Burger</h3>
-                    <p className="text-sm text-gray-600">Topped with BBQ pulled pork, cheddar & red Leicester cheese, tomato, lettuce, challah bun, 'slaw, chips (served plain if preferred)</p>
+                    <p className="text-sm text-gray-600">Topped with BBQ pulled pork, Manx cheddar cheese, tomato, lettuce, Challah bun, 'slaw, chips (served plain if preferred)</p>
                   </div>
                   <span className="font-bold text-amber-900 ml-4">£16.70</span>
                 </div>
@@ -379,10 +344,13 @@ export default function MainMenuPage() {
               <CardContent className="pt-6">
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
-                    <h3 className="font-bold text-gray-900 mb-2">Crispy</h3>
-                    <p className="text-sm text-gray-600">Coated in our house batter, pineapple fritter, mango chutney, salad, chips</p>
+                    <h3 className="font-bold text-gray-900 mb-2">Grilled</h3>
+                    <p className="text-sm text-gray-600">Plain grilled, white wine & onion cream sauce, broccoli, chips (GF available)</p>
                   </div>
-                  <span className="font-bold text-amber-900 ml-4">£18.50</span>
+                  <div className="ml-4 text-right">
+                    <span className="font-bold text-amber-900 block">£18.50</span>
+                    <span className="text-sm text-gray-600">£16.50 sp</span>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -483,20 +451,6 @@ export default function MainMenuPage() {
               </CardContent>
             </Card>
 
-            <Card>
-              <CardContent className="pt-6">
-                <div className="flex justify-between items-start">
-                  <div className="flex-1">
-                    <h3 className="font-bold text-lg text-gray-900 mb-2">Seafood Linguini</h3>
-                    <p className="text-sm text-gray-600">Jumbo prawns, queenies, cod, white wine, lime, coriander, chilli sauce OR our tomato Marinara sauce</p>
-                  </div>
-                  <div className="ml-4 text-right">
-                    <span className="font-bold text-amber-900 block">£22.25</span>
-                    <span className="text-sm text-gray-600">£19.50 sp</span>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>
@@ -512,12 +466,9 @@ export default function MainMenuPage() {
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
                     <h3 className="font-bold text-lg text-gray-900 mb-2">Lasagne</h3>
-                    <p className="text-sm text-gray-600">Prime Manx minced beef in an Italian style tomato sauce layered with pasta sheets, béchamel sauce and cheese, salad, chips</p>
+                    <p className="text-sm text-gray-600">Prime Manx minced beef in an Italian style tomato sauce layered with pasta sheets, bechamel sauce and cheese, salad, chips</p>
                   </div>
-                  <div className="ml-4 text-right">
-                    <span className="font-bold text-amber-900 block">£16.75</span>
-                    <span className="text-sm text-gray-600">£13.95 sp</span>
-                  </div>
+                  <span className="font-bold text-amber-900 ml-4">£16.75</span>
                 </div>
               </CardContent>
             </Card>
@@ -527,8 +478,8 @@ export default function MainMenuPage() {
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
                     <h3 className="font-bold text-lg text-gray-900 mb-2">Carbonara Linguini</h3>
-                    <p className="text-sm text-gray-600">Crispy bacon, shallots, egg, parmesan, cream, slice garlic bread</p>
-                    <p className="text-xs text-gray-500 mt-2">ADD slices of chicken breast - £3 and/or mushrooms - £1</p>
+                    <p className="text-sm text-gray-600">Crispy bacon, mushrooms, parmesan, cream, slice garlic bread</p>
+                    <p className="text-xs text-gray-500 mt-2">ADD slices of chicken breast - £3</p>
                   </div>
                   <div className="ml-4 text-right">
                     <span className="font-bold text-amber-900 block">£15.00</span>
@@ -542,10 +493,13 @@ export default function MainMenuPage() {
               <CardContent className="pt-6">
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
-                    <h3 className="font-bold text-lg text-gray-900 mb-2">Vegetarian Wellington</h3>
-                    <p className="text-sm text-gray-600">Goat's cheese, spinach, butternut squash, cashew nuts in puff pastry, roasted pepper and garlic cream sauce, broccoli, chips</p>
+                    <h3 className="font-bold text-lg text-gray-900 mb-2">Broccoli & Cauliflower Cheese Bake</h3>
+                    <p className="text-sm text-gray-600">Broccoli & cauliflower florets, cheese sauce, breadcrumbs, salad, chips</p>
                   </div>
-                  <span className="font-bold text-amber-900 ml-4">£17.95</span>
+                  <div className="ml-4 text-right">
+                    <span className="font-bold text-amber-900 block">£15.95</span>
+                    <span className="text-sm text-gray-600">£13.95 sp</span>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -588,7 +542,7 @@ export default function MainMenuPage() {
           <p className="text-center text-gray-600 mb-8">(ONLY available with a main course)</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             <div className="flex justify-between items-center border-b border-gray-200 pb-3">
-              <span className="text-gray-900">Peppercorn / Diane / Garlic / Tomato / Blue Cheese / Spicy BBQ</span>
+              <span className="text-gray-900">Peppercorn / Diane / Garlic / Tomato / Spicy BBQ</span>
               <span className="font-bold text-amber-900">£3.75</span>
             </div>
             <div className="flex justify-between items-center border-b border-gray-200 pb-3">
@@ -635,13 +589,6 @@ export default function MainMenuPage() {
               </div>
 
               <div>
-                <h3 className="font-bold text-amber-900 mb-2">Special Set Menu</h3>
-                <p className="text-sm text-gray-700">
-                  2 course set menu + dessert option - available Mondays to Fridays - ask your server
-                </p>
-              </div>
-
-              <div>
                 <h3 className="font-bold text-amber-900 mb-2">Service</h3>
                 <p className="text-sm text-gray-700">
                   We do not add a service charge to your bill. If you feel you have had good service or brought in a celebration cake, a gratuity will be greatly appreciated by all your servers & kitchen staff.
@@ -661,7 +608,7 @@ export default function MainMenuPage() {
               <div className="bg-white p-4 rounded-lg">
                 <h3 className="font-bold text-amber-900 mb-2 text-center">We Also Cater For</h3>
                 <p className="text-center text-gray-700 font-semibold">
-                  WEDDINGS • FAMILY CELEBRATIONS • WAKES • AND MORE
+                  WEDDINGS • FAMILY CELEBRATIONS • CHRISTENINGS • WAKES • AND MORE
                 </p>
                 <p className="text-sm text-gray-600 text-center mt-2">
                   Plated meals or hot/cold buffet - special menu tailored to your taste and budget

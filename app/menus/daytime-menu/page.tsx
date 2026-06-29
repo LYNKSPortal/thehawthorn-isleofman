@@ -52,7 +52,7 @@ export default function DaytimeMenuPage() {
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
                     <h3 className="font-semibold text-gray-900">Brie</h3>
-                    <p className="text-sm text-gray-600">Bread crumbed deep fried, small salad, chips</p>
+                    <p className="text-sm text-gray-600">Bread-crumbed and deep fried, served with small salad and chips</p>
                   </div>
                   <span className="font-bold text-amber-900 ml-4">£13.00</span>
                 </div>
@@ -64,7 +64,7 @@ export default function DaytimeMenuPage() {
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
                     <h3 className="font-semibold text-gray-900">Scampi</h3>
-                    <p className="text-sm text-gray-600">Whole tail, garden peas, chips</p>
+                    <p className="text-sm text-gray-600">Whole tail scampi with garden peas and chips</p>
                   </div>
                   <span className="font-bold text-amber-900 ml-4">£13.95</span>
                 </div>
@@ -76,7 +76,7 @@ export default function DaytimeMenuPage() {
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
                     <h3 className="font-semibold text-gray-900">Baked Loin of Cod</h3>
-                    <p className="text-sm text-gray-600">Vierge dressing, vegetables, sautéed potatoes</p>
+                    <p className="text-sm text-gray-600">Vierge dressing, vegetables and sautéed potatoes</p>
                   </div>
                   <span className="font-bold text-amber-900 ml-4">£14.60</span>
                 </div>
@@ -88,7 +88,7 @@ export default function DaytimeMenuPage() {
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
                     <h3 className="font-semibold text-gray-900">Creole Loin of Cod</h3>
-                    <p className="text-sm text-gray-600">Coated in Cajun spices, stir-fried vegetables, chips</p>
+                    <p className="text-sm text-gray-600">Coated in Cajun spices, with stir-fried vegetables and chips</p>
                   </div>
                   <span className="font-bold text-amber-900 ml-4">£14.60</span>
                 </div>
@@ -99,8 +99,8 @@ export default function DaytimeMenuPage() {
               <CardContent className="pt-6">
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
-                    <h3 className="font-semibold text-gray-900">Fish (Cod) & Chips</h3>
-                    <p className="text-sm text-gray-600">Mushy peas, chips</p>
+                    <h3 className="font-semibold text-gray-900">Fish & Chips</h3>
+                    <p className="text-sm text-gray-600">Cod with mushy peas and chips</p>
                   </div>
                   <span className="font-bold text-amber-900 ml-4">£14.60</span>
                 </div>
@@ -112,19 +112,7 @@ export default function DaytimeMenuPage() {
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
                     <h3 className="font-semibold text-gray-900">Pork Sausage</h3>
-                    <p className="text-sm text-gray-600">Onion gravy, creamed potatoes</p>
-                  </div>
-                  <span className="font-bold text-amber-900 ml-4">£12.50</span>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardContent className="pt-6">
-                <div className="flex justify-between items-start">
-                  <div className="flex-1">
-                    <h3 className="font-semibold text-gray-900">Breaded Pork Loin Escalope</h3>
-                    <p className="text-sm text-gray-600">White wine & onion cream sauce, broccoli, mash potatoes</p>
+                    <p className="text-sm text-gray-600">Onion gravy and creamed potatoes</p>
                   </div>
                   <span className="font-bold text-amber-900 ml-4">£12.50</span>
                 </div>
@@ -136,10 +124,10 @@ export default function DaytimeMenuPage() {
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
                     <h3 className="font-semibold text-gray-900">Sirloin Minute Steak</h3>
-                    <p className="text-sm text-gray-600">Fried mushrooms & onions, garden peas, chips</p>
-                    <p className="text-xs text-gray-500 mt-1">Add a pepper sauce only £1.50</p>
+                    <p className="text-sm text-gray-600">Fried mushrooms, onions, garden peas and chips</p>
+                    <p className="text-xs text-gray-500 mt-1">Add pepper sauce £1.50</p>
                   </div>
-                  <span className="font-bold text-amber-900 ml-4">£15.25</span>
+                  <span className="font-bold text-amber-900 ml-4">£15.50</span>
                 </div>
               </CardContent>
             </Card>
@@ -149,7 +137,7 @@ export default function DaytimeMenuPage() {
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
                     <h3 className="font-semibold text-gray-900">Gammon</h3>
-                    <p className="text-sm text-gray-600">Pineapple, fried egg, tomato, mushrooms, onion rings, chips</p>
+                    <p className="text-sm text-gray-600">Pineapple, fried egg, tomato, mushrooms, onion rings and chips</p>
                   </div>
                   <span className="font-bold text-amber-900 ml-4">£13.75</span>
                 </div>
@@ -161,7 +149,7 @@ export default function DaytimeMenuPage() {
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
                     <h3 className="font-semibold text-gray-900">Beef Chilli</h3>
-                    <p className="text-sm text-gray-600">Cheesy nachos, sour cream, rice OR chips</p>
+                    <p className="text-sm text-gray-600">Cheesy nachos, sour cream and rice or chips</p>
                   </div>
                   <span className="font-bold text-amber-900 ml-4">£13.75</span>
                 </div>
@@ -173,9 +161,9 @@ export default function DaytimeMenuPage() {
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
                     <h3 className="font-semibold text-gray-900">Chicken Breast</h3>
-                    <p className="text-sm text-gray-600">White wine & onion cream sauce, broccoli, creamed potatoes</p>
+                    <p className="text-sm text-gray-600">White wine and onion cream sauce, broccoli and creamed potatoes</p>
                   </div>
-                  <span className="font-bold text-amber-900 ml-4">£12.75</span>
+                  <span className="font-bold text-amber-900 ml-4">£12.95</span>
                 </div>
               </CardContent>
             </Card>
@@ -184,10 +172,10 @@ export default function DaytimeMenuPage() {
               <CardContent className="pt-6">
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
-                    <h3 className="font-semibold text-gray-900">Chicken in a Stroganoff Sauce</h3>
-                    <p className="text-sm text-gray-600">Broccoli, rice</p>
+                    <h3 className="font-semibold text-gray-900">Chicken Stroganoff</h3>
+                    <p className="text-sm text-gray-600">Chicken in stroganoff sauce with broccoli and rice</p>
                   </div>
-                  <span className="font-bold text-amber-900 ml-4">£12.75</span>
+                  <span className="font-bold text-amber-900 ml-4">£12.95</span>
                 </div>
               </CardContent>
             </Card>
@@ -196,10 +184,10 @@ export default function DaytimeMenuPage() {
               <CardContent className="pt-6">
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
-                    <h3 className="font-semibold text-gray-900">Chicken Pieces in Batter</h3>
-                    <p className="text-sm text-gray-600">Coated in a honey & orange glaze, stir-fried vegetables, rice</p>
+                    <h3 className="font-semibold text-gray-900">Honey & Orange Chicken</h3>
+                    <p className="text-sm text-gray-600">Battered chicken pieces in honey and orange glaze with stir-fried vegetables and rice</p>
                   </div>
-                  <span className="font-bold text-amber-900 ml-4">£12.75</span>
+                  <span className="font-bold text-amber-900 ml-4">£12.95</span>
                 </div>
               </CardContent>
             </Card>
@@ -209,7 +197,7 @@ export default function DaytimeMenuPage() {
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
                     <h3 className="font-semibold text-gray-900">Carbonara</h3>
-                    <p className="text-sm text-gray-600">Crispy bacon, shallots, egg, parmesan, cream, linguine, garlic bread</p>
+                    <p className="text-sm text-gray-600">Crispy bacon, mushrooms, parmesan & cream with linguine & garlic bread</p>
                   </div>
                   <span className="font-bold text-amber-900 ml-4">£12.50</span>
                 </div>
@@ -220,22 +208,10 @@ export default function DaytimeMenuPage() {
               <CardContent className="pt-6">
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
-                    <h3 className="font-semibold text-gray-900">Brunch</h3>
-                    <p className="text-sm text-gray-600">Pork sausage, bacon, fried egg, black pudding, mushrooms, grilled tomato, baked beans, chips, toast</p>
-                  </div>
-                  <span className="font-bold text-amber-900 ml-4">£12.75</span>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardContent className="pt-6">
-                <div className="flex justify-between items-start">
-                  <div className="flex-1">
                     <h3 className="font-semibold text-gray-900">Mini-Brunch A</h3>
-                    <p className="text-sm text-gray-600">2 pork sausage, fried egg, baked beans, chips</p>
+                    <p className="text-sm text-gray-600">2 pork sausages, fried egg, baked beans and chips</p>
                   </div>
-                  <span className="font-bold text-amber-900 ml-4">£9.50</span>
+                  <span className="font-bold text-amber-900 ml-4">£10.50</span>
                 </div>
               </CardContent>
             </Card>
@@ -245,9 +221,9 @@ export default function DaytimeMenuPage() {
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
                     <h3 className="font-semibold text-gray-900">Mini-Brunch B</h3>
-                    <p className="text-sm text-gray-600">2 bacon rashers, fried egg, baked beans, chips</p>
+                    <p className="text-sm text-gray-600">2 bacon rashers, fried egg, baked beans and chips</p>
                   </div>
-                  <span className="font-bold text-amber-900 ml-4">£9.50</span>
+                  <span className="font-bold text-amber-900 ml-4">£10.50</span>
                 </div>
               </CardContent>
             </Card>
@@ -266,7 +242,7 @@ export default function DaytimeMenuPage() {
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
                     <h3 className="font-semibold text-gray-900">Omelette</h3>
-                    <p className="text-sm text-gray-600">Cheese, tomato, onion, chips</p>
+                    <p className="text-sm text-gray-600">Cheese, tomato and onion, served with chips</p>
                   </div>
                   <span className="font-bold text-amber-900 ml-4">£11.50</span>
                 </div>
@@ -277,8 +253,8 @@ export default function DaytimeMenuPage() {
               <CardContent className="pt-6">
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
-                    <h3 className="font-semibold text-gray-900">Mushroom and Vegetable Stroganoff</h3>
-                    <p className="text-sm text-gray-600">Rice or linguine</p>
+                    <h3 className="font-semibold text-gray-900">Mushroom & Vegetable Stroganoff</h3>
+                    <p className="text-sm text-gray-600">Served with rice or linguine</p>
                   </div>
                   <span className="font-bold text-amber-900 ml-4">£11.50</span>
                 </div>
@@ -289,10 +265,10 @@ export default function DaytimeMenuPage() {
               <CardContent className="pt-6">
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
-                    <h3 className="font-semibold text-gray-900">Vegetables in Homemade Marinara Tomato Sauce</h3>
-                    <p className="text-sm text-gray-600">Linguine, garlic bread</p>
+                    <h3 className="font-semibold text-gray-900">Broccoli & Cauliflower Cheese Bake</h3>
+                    <p className="text-sm text-gray-600">Breadcrumb topping, salad and chips</p>
                   </div>
-                  <span className="font-bold text-amber-900 ml-4">£11.50</span>
+                  <span className="font-bold text-amber-900 ml-4">£12.50</span>
                 </div>
               </CardContent>
             </Card>
@@ -306,13 +282,33 @@ export default function DaytimeMenuPage() {
           <Card className="bg-amber-50 border-amber-200">
             <CardContent className="pt-6">
               <p className="text-gray-700 mb-6">
-                More SMALL PLATES (SP) starters & sides are available
+                More small plates, starters and sides are available — please see the main menu for selection and prices.
               </p>
               <Link href="/menus/main-menu">
                 <Button size="lg">See Main Menu for Selection and Prices</Button>
               </Link>
             </CardContent>
           </Card>
+        </div>
+      </section>
+
+      {/* Large Brunch */}
+      <section className="py-16 bg-amber-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-amber-900 mb-8 text-center">Large Brunch</h2>
+          <div className="space-y-4 max-w-4xl mx-auto">
+            <Card>
+              <CardContent className="pt-6">
+                <div className="flex justify-between items-start">
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-gray-900">Large Brunch</h3>
+                    <p className="text-sm text-gray-600">2 pork sausage, 2 bacon, fried egg, black pudding, mushrooms, grilled tomato, baked beans, chips and toast</p>
+                  </div>
+                  <span className="font-bold text-amber-900 ml-4">£13.50</span>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
         </div>
       </section>
     </div>
