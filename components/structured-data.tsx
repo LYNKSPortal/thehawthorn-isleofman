@@ -29,12 +29,6 @@ export function StructuredData() {
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Monday",
-        "opens": "12:00",
-        "closes": "19:00"
-      },
-      {
-        "@type": "OpeningHoursSpecification",
         "dayOfWeek": ["Tuesday", "Wednesday", "Thursday"],
         "opens": "12:00",
         "closes": "20:00"

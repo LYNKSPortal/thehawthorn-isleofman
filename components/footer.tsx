@@ -55,7 +55,7 @@ export function Footer() {
             <div className="space-y-2 text-sm mx-auto" style={{ width: '400px' }}>
               <div className="flex justify-between text-gray-300">
                 <span>Monday</span>
-                <span>12:00 - 7:00 PM</span>
+                <span>Closed</span>
               </div>
               <div className="flex justify-between text-gray-300">
                 <span>Tue - Thu</span>
