@@ -109,7 +109,7 @@ export default function MainMenuPage() {
             <div className="flex justify-between items-start border-b border-gray-200 pb-4">
               <div className="flex-1">
                 <h3 className="font-semibold text-gray-900">Brie</h3>
-                <p className="text-sm text-gray-600">Breaded, deep fried, balsamic cream, garlic bread reduction, cranberry sauce, salad</p>
+                <p className="text-sm text-gray-600">Breaded, deep fried, balsamic reduction, cranberry sauce, salad</p>
               </div>
               <span className="font-bold text-amber-900 ml-4">£9.95</span>
             </div>
@@ -125,7 +125,7 @@ export default function MainMenuPage() {
             <div className="flex justify-between items-start border-b border-gray-200 pb-4">
               <div className="flex-1">
                 <h3 className="font-semibold text-gray-900">Jumbo Chilli & Garlic Prawns</h3>
-                <p className="text-sm text-gray-600">White wine, butter, chilli flake, garlic bread OR Cheddar mornay style</p>
+                <p className="text-sm text-gray-600">White wine, butter, chilli flake, garlic bread</p>
               </div>
               <span className="font-bold text-amber-900 ml-4">£11.95</span>
             </div>
