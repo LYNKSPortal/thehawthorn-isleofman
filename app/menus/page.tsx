@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Utensils, Sun, ArrowRight, Phone, Baby, Calendar, IceCream } from "lucide-react"
+import { Utensils, Sun, ArrowRight, Phone, Baby, Calendar, IceCream, Gift } from "lucide-react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -135,6 +135,29 @@ export default function MenusPage() {
                   </div>
                   <CardDescription className="text-base">
                     Delicious homemade desserts, Manx ice cream, specialty coffees, and liquor coffees
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="flex items-center justify-center text-amber-900 font-semibold">
+                    View Full Menu <ArrowRight className="ml-2 w-5 h-5" />
+                  </div>
+                </CardContent>
+              </Card>
+            </Link>
+          </div>
+
+          {/* Third row - festive menu centered */}
+          <div className="max-w-4xl mx-auto mt-8">
+            <Link href="/menus/festive-menu">
+              <Card className="hover:shadow-lg transition-shadow cursor-pointer h-full text-center">
+                <CardHeader>
+                  <Gift className="w-12 h-12 text-amber-700 mb-4 mx-auto" />
+                  <CardTitle className="text-2xl">Festive Menu 2026</CardTitle>
+                  <div className="bg-amber-50 border border-amber-200 rounded-md px-3 py-2 mb-3">
+                    <p className="text-sm font-semibold text-amber-900">3 Courses £38 · 2 Courses £32</p>
+                  </div>
+                  <CardDescription className="text-base">
+                    Celebrate the season with our festive starters, mains, and desserts
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
